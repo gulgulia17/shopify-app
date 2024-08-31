@@ -10,7 +10,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const PORT = parseInt(
-  process.env.BACKEND_PORT || process.env.PORT || "3000",
+  process.env.BACKEND_PORT || process.env.PORT || "3001",
   10
 );
 
